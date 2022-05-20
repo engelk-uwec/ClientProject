@@ -1,0 +1,166 @@
+img{
+    max-width:38%;
+    
+}
+
+body{
+    background-color:#666666;
+    font-family:Frankin Gothic 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+}
+
+header{
+    background-image: url(images/wyomingMountainLake.jpg);
+    margin-bottom:3rem;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    font-family: 'bernard-mt-condensed-regular', sans-serif;
+
+}
+
+.green{
+    background-color:#0E5100;
+}
+
+nav{
+    flex-basis:100%;
+    text-align:center;
+}
+
+a{
+    background-color:#0E5100;
+    border-radius: .25rem;
+    padding:.5rem;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.5rem;
+    align-items:center;
+    justify-content:space-between;
+    display:inline-block;
+    margin-top: .25rem;
+    font-family: 'bernard-mt-condensed-regular', sans-serif;
+
+}
+
+.what{
+    background-color:#0E5100;
+    opacity: 75%;
+}
+
+.contact{
+    background-image: url(images/tentFogRiver.jpg);
+    padding:4rem;
+    background-size:cover;
+    text-align:center;
+}
+
+.review{
+    background-color:#0E5100;
+}
+
+.review img{
+    width:50%;
+    display:block;
+    margin:auto;
+}
+
+.places{
+    background-color:#0E5100;
+    opacity: 75%;
+    align-items:center;
+    display:inline-block;
+    position:fixed;
+}
+
+.tours{
+    background-color:#0E5100;
+    opacity: 75%;
+}
+
+.motor{
+    background-color:#0E5100;
+    opacity: 75%;
+}
+
+.animal{
+    background-color:#0E5100;
+    opacity: 75%;
+}
+
+.nature{
+    background-color:#0E5100;
+    opacity: 75%;
+}
+
+.cabin img{
+width:100%;
+}
+.camping img{
+width:100%;
+}
+
+.introvid{
+    position:relative;
+    overflow:hidden;
+    text-align:center;
+
+}
+
+.introvid h1{
+    background-color:#6666665f;
+    
+}
+
+.introvid.home iframe{
+    position:absolute;
+    top:-20%;
+    left:-50%;
+    width:200%;
+    height:180%;
+    z-index:-1;
+}
+
+.box{
+    background-color:darkmagenta;
+    width:calc(50% - 2rem);
+    margin:auto;
+    text-align:center;
+    padding:1rem;
+    margin-bottom:3rem;
+}
+
+.textbackground{
+    padding: 2rem;
+    background-size:100%;
+    background-position:center;
+    color:white;
+    /*same for all images*/
+}
+
+
+.winery{
+    background-image:url(images/vineyard.jpg);
+    }
+
+.minigal{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    gap:2rem;
+      /*same for all images*/
+    
+
+    /*desktop=maxheight*/
+    }
+
+.minigal img{
+    flex:1 ;
+    width:unset;
+    flex-basis:30%;
+    
+}
