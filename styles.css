@@ -117,6 +117,12 @@ a{
     background-size:cover;
     background-position:center;
     padding:5rem;
+    /*Instead of the padding on the left and right to shorten the background behind the words try: 
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    */
     padding-left:43.5%;
     padding-right:43.5%;
     margin-top:3rem;
@@ -126,9 +132,9 @@ a{
 
 .intropiclocations h1{
     background-color:#666666d6;
-    
+    /*Add display:inline-block; Then the background will only be behind the words.*/
 }
-
+/*You can add those properties above to all the intropic divs and h1*/
 .intropicrentals{
     background-image:url(images/girlsking.jpg);
     background-size:cover;
