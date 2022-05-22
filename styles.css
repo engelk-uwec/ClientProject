@@ -54,12 +54,17 @@ a{
 .road{
     margin-top:3rem;
     align-items:center;
+    background-image:url(images/smokeyroad.jpg);
+    background-position:center;
+    background-size:cover;
+    padding:10rem;
 }
 
 
 .contact{
     background-image: url(images/tentFogRiver.jpg);
-    padding:4rem;
+    background-position:center;
+    padding:10rem;
     background-size:cover;
     text-align:center;
 }
@@ -110,25 +115,68 @@ a{
 .intropiclocations{
     background-image:url(images/wyomingSunset.JPG);
     background-size:cover;
+    background-position:center;
+    padding:5rem;
+    padding-left:43.5%;
+    padding-right:43.5%;
+    margin-top:3rem;
+    text-align:center;
 
+}
+
+.intropiclocations h1{
+    background-color:#666666d6;
+    
 }
 
 .intropicrentals{
     background-image:url(images/girlsking.jpg);
     background-size:cover;
+    background-position:center;
+    padding:5rem;
+    padding-left:45%;
+    padding-right:45%;
+    margin-top:3rem;
+    text-align:center;
+    
+}
+
+.intropicrentals h1{
+    background-color:#666666d6;
+    
 }
 
 .intropicgallery{
     background-image:url(images/smokeymountain.jpg);
     background-size:cover;
+    background-position:center;
+    padding:5rem;
+    padding-left:42.5%;
+    padding-right:42.5%;
+    margin-top:3rem;
+    text-align:center;
+}
+
+.intropicgallery h1{
+    background-color:#666666d6;
+    
 }
 
 .intropicexperiences{
     background-image:url(images/campsiteTent.jpg);
     background-size:cover;
-}
+    background-position:center;
+padding:5rem;
+    margin-top:3rem;
+    padding-left:42%;
+    padding-right:42%;
+       text-align:center;
+        }
 
-
+        .intropicexperiences h1{
+            background-color:#666666d6;
+            
+        }
 
 .textbackground{
     padding: 2rem;
@@ -141,6 +189,9 @@ a{
 
 .winery{
     background-image:url(images/vineyard.jpg);
+    background-size:cover;
+    background-position:center;
+    padding:10rem;
     }
 
 .minigal{
@@ -161,30 +212,42 @@ a{
     
 }
 
-.places{
+.stay{
     background-image:url(images/beachHouseSunset.jpg);
     background-size:cover;
-  
+  background-position:center;
+  padding:10rem;
     align-items:center;
     display:inline-block;
     position:fixed;
 }
 
-.tours{
+.tour{
     background-image:url(images/truckinLavendar.jpg);
     background-size:cover;
+    background-position:center;
     padding:10rem;
     text-align:center;
     align-items:center;
 }
 
+.tour h2{
+    background-color:#666666d6;
+    padding:.5rem;
+}
+
+.tours
+
 .motor{
     background-image:url(images/motorcycleFast.jpg);
     background-size:cover;
+    background-position:center;
     padding:10rem;
     text-align:center;
     align-items:center;
 }
+
+
 
 .boats{
     background-image:url(images/skiboat.jpg);
@@ -194,3 +257,44 @@ a{
     align-items:center;
 }
   
+.animals a{
+    text-align:center;
+    align-items:center;
+    display:inline-block;
+  
+}
+
+.animal{
+    background-image:url(images/whiteWolves.jpg);
+    background-size:cover;
+    padding:10rem;
+  text-align:center;
+  background-position:center;
+}
+
+.landvehicle{
+    background-image:url(images/whiteUTV.jpg);
+    background-position:center;
+    background-size:cover;
+    padding:10rem;
+    
+}
+
+.landvehicle h3{
+    background-color:#666666d6;
+    text-align:center;
+    padding:.5rem;
+}
+
+.watercrafts{
+    background-image:url(images/pontoonWheel.jpg);
+    background-size:cover;
+    background-position:center;
+    padding:10rem;
+}
+
+.watercrafts h3{
+    background-color:#666666d6;
+    text-align:center;
+    padding:.5rem;
+}

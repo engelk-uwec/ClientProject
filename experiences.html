@@ -17,7 +17,7 @@
         <link href="https://www.dafontfree.net/embed/YmVybmFyZC1tdC1jb25kZW5zZWQtcmVndWxhciZkYXRhLzEzL2IvNjQ0NzkvQkVSTkhDLlRURg" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
+        <header class="exp">
             <img src="images/logo.svg" alt="Explore logo">
         <nav>
             <a href="index.html">Home</a>
@@ -44,8 +44,8 @@
 </nav>
 
 <div class="stay">
-<h2 class="places">Places To Stay</h2>
-
+<h2 class="places" id="places">Places To Stay</h2>
+</div>
 <div class="green">
 <img src="images/floridaBeachHouse-1.png" alt="A veiw of the beach from the porch">
 <h5>Ocean Blues Condo</h5>
@@ -93,23 +93,25 @@
 <img src="images/pinkMountainTent.jpg" alt="Two tents in front of a vast mountain range">
 <p>Eternity Point Campsite shows off beautifully vast views of the surrounding mountains and lake.  This spot is well known by campers as one of the most beautiful places to watch the sunset over the mountains.  The site also provides you with ample opportunity to explore the outdoors as you can hike the local trails or ski and snowboard down the mountains.</p>
 </div>
-</div>
 
-<h2 class="tours">Tours</h2>
+
+<div class=tour>
+<h2 class="tours" id="tours">Tours</h2>
 
 <a href="#boattours">Boat</a>
 <a href="#flights">Flights</a>
 <a href="#winery">Winery</a>
+</div>
 
 <div class="green">
-<h3 class="boattours">Boat Tours</h3>
+<h3 class="boattours" id="boattours">Boat Tours</h3>
 <img src="images/IslandBoat.jpg" alt="Island Clipper Boat">
 <img src="images/riverCruseBoat.jpg" alt="Glowing boat at night">
 <p>Boat tours are a different way to experience the water.  Here at explore you can take a week long river boat cruise to explore major rivers in the USA such as the Mississippi river.  If you don't want to commit to such a long ride, but still want to get out on the water, you can take an evening cruise where you will see some natural landmarks and enjoy a sunset with your dinner.  If you are looking to see whales on your boat tour please see the animal experiences tab.</p>
 </div>
 
 <div class="green">
-<h3 class="flights">Flights</h3>
+<h3 class="flights" id="flights">Flights</h3>
 
 <img src="images/sideplanewindow.jpg" alt="View out of the side window of a small plane">
 <img src="images/betterplaneback.jpg" alt="View out of the back window of a small plane">
@@ -117,7 +119,7 @@
 </div>
 
 <div class="green">
-<h3 class="winery textbackground">Winery</h3>
+<h3 class="winery textbackground" id="winery">Winery</h3>
 <div class="minigal">
 <img src="images/wineOutside.jpg" alt="Glass and bottle of wine in front of a vineyard">
 <img src="images/wineRack.jpg" alt="Shelf of a variety of wines">
@@ -126,7 +128,8 @@
 </div>
 
 
-<h2 class="motor textbackground">Motorized Adventures</h2>
+
+<h2 class="motor textbackground" id="motor">Motorized Adventures</h2>
 
 
 <a href="#boats">Boats</a>
@@ -135,7 +138,7 @@
 <a href="#utvs">UTVs</a>
 
 
-<h3 class="boats">Boats</h3>
+<h3 class="boats" id="boats">Boats</h3>
 
 
 <div class="green">
@@ -168,15 +171,13 @@
 <h5>Water Skiing and Wakeboarding</h5>
 <p>When you take a boat out on the water be sure to check out the activities that you can do while out.  Here at explore we like to provide you with options.  You can learn how to waterski or wakeboard while out on your trip or if you want to just hold on for dear life tubing might be more your style.  Explore has the gear for all these options just see the rentals page.  We also offer skiing, salomon skiing, wakeboarding, and barefooting lessons if you are looking to learn or improve upon your skills.</p>
 
-
-<div class="green">
 <img src="images/tubing.jpg" alt="Tubing behind a pontoon">
 <h5>Tubing</h5>
 <p>If you are not real confident in your skiing or wakeboarding abilities than tubing might just be for you.  We have both large and small tube options, so it is up to you whether or not you would like to share a tube with someone or have a group tube.</p>
 </div>
 
 <div class="green">
-<h3 class="motorcycles">Motorcycles</h3>
+<h3 class="motorcycles" id="motorcycles">Motorcycles</h3>
 <img src="images/greyMotorcycle.jpg" alt="Grey motorcycle on a road">
 <img src="images/motoRide.jpg" alt="Person riding a motorcycle">
 <img src="images/thumbnail_motorcycleRide.jpg" alt="Two people on a blue motorcycle">
@@ -184,30 +185,30 @@
 </div>
 
 <div class="green">
-<h3 class="snowmobiles">Snowmobiles</h3>
+<h3 class="snowmobiles" id="snowmobiles">Snowmobiles</h3>
 <img src="images/snowmobileRow.jpg" alt="Row of blue snowmobiles">
 <img src="images/snowmobileSunset.jpg" alt="Person riding a snowmobile at sunset">
 <p>Snowmobiling is a great way to explore from the countryside to the mountains.  In the winter there are many locations that offer snowmobile trails and you can explore for miles.  Snowmobiles give you the freedom to go many places in the winter and allow you to see beautiful snow covered trees, mountains, and lakes.</p>
 </div>
 
 <div class="green">
-<h3 class="utvs">UTVs</h3>
+<h3 class="utvs" id="utvs">UTVs</h3>
 <img src="images/ATVMud.JPG" alt="UTV driving through a muddy puddle">
 <img src="images/ATVBackRiver.JPG" alt="View from back of UTV driving through a river">
 <p>UTVs can take you places that would not otherwise be accessable by car.  This is a freeing trait of these machines because they can take you over rocks, through streams, and across otherwise hidden landscapes.  These machine are built to handle what you throw at them including mud and water so enjoy creek crossings.</p>
 </div>
 
 
-<div class="green">
-<h2 class="animal">Animal Activities</h2>
-<img src="images/whiteWolves.jpg" alt="White wolves howling in the snow">
+<div class="animals">
+<h2 class="animal" id="animal">Animal Activities</h2>
 
 <a href="#animalsighting">Animal Sighting</a>
 <a href="#dogsledding">Dog Sledding</a>
 <a href="#whalewatching">Whale Watching</a>
+</div>
 
 <div class="green">
-<h3 class="animalsighting">Animal Sighting</h3>
+<h3 class="animalsighting" id="animalsighting">Animal Sighting</h3>
 <img src="images/bears.jpg" alt="Mom and her cubs by the river">
 <img src="images/beaver.jpg" alt="Beaver chewing on something">
 <img src="images/snowBuffalo.jpg" alt="Buffalo in the snow">
@@ -215,7 +216,7 @@
 </div>
 
 <div class="green">
-<h3 class="dogsledding">Dog Sledding</h3>
+<h3 class="dogsledding" id="dogsledding">Dog Sledding</h3>
 <img src="images/dogSledTeamSnow.jpg" alt="A team of dogs pulling a person">
 <img src="images/dogSledForest.jpg" alt="A team of dogs pulling a person through the forest">
 <img src="images/dogSledding.JPG" alt="Close up of a dog sled team">
@@ -223,20 +224,20 @@
 </div>
 
 <div class="green">
-<h3 class="whalewatching">Whale Watching</h3>
+<h3 class="whalewatching" id="whalewatching">Whale Watching</h3>
 <img src="images/boatWhale.jpg" alt="Whale breaching behind boat">
 <img src="images/humbackWhaleBoat.jpg" alt="Whale breaching in front of boat">
 <p>This is an exciting activity that allows you to see whales and sometimes sharks and dolphins in their natural habitat.  Our small boat sizes will insure your comfort, as we limit the number of passengers, ensuring a peaceful and roomy ride for everyone.  You will spot whales ranging from humpbacks to blue whales and everything in between.</p>
 </div>
 
 
-<h2 class="nature">Nature Adventures</h2>
+<h2 class="nature" id="nature">Nature Adventures</h2>
 <a href="#ezhike">EZ Hike</a>
 <a href="#whitewaterrafting">Whitewater Rafting</a>
 <a href="#kayaking">Kayaking</a>
 
 <div class="green">
-<h3 class="ezhike">EZ Hike</h3>
+<h3 class="ezhike" id="ezhike">EZ Hike</h3>
 <img src="images/mountainPath.jpg" alt="People hiking on a gravel path by mountains">
 <img src="images/woodedRoad.jpg" alt="Gravel road through the woods">
 <img src="images/greenGolfCartRow.jpg" alt="Row of green golf carts">
@@ -245,20 +246,18 @@
 </div>
 
 <div class="green">
-<h3 class="whitewaterrafting">Whitewater Rafting</h3>
+<h3 class="whitewaterrafting" id="whitewaterrafting">Whitewater Rafting</h3>
 <img src="images/whitewaterRaftingYellow.jpg" alt="People rafting in a yellow raft">
 <img src="images/whitewaterRaftingBlue.jpg" alt="People rafting in a blue raft">
 <p>White water rafting is a wet and crazy experience that will give you both a mental and a physical challenge.  Here you will work in groups to accomplish your route down the river.  Each raft is given a guide that will acompany you to direct your route and keep you safe.</p>
 </div>
 
 <div class="green">
-<h3 class="kayaking">Kayaking</h3>
+<h3 class="kayaking"  id="kayaking">Kayaking</h3>
 <img src="images/sunsetFrontKayak.jpg" alt="Front of an orange kayak looking at a sunset">
 <img src="images/dadMeKayak.jpg" alt="Man kayaking down a wooded creek">
 <p>Kayaking is a calming way to get out and appreciate nature with a different perspective.  With a kayak you can float down creeks that would be too shallow to otherwise see, or explore a lake's edge.  Kayaks also make for quiet trips which allow you to get closer to wildlife.</p>
 </div>
-
-</p>
 
 </body>
 </html>
